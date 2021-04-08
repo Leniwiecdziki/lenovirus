@@ -1,0 +1,3 @@
+:dupa
+calc
+goto dupa
