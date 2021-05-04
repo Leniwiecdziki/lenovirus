@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<title>Liptoneq Collection</title>
+<title>Stary Leń</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -24,7 +24,7 @@ body {
   overflow: hidden;
   background-color: black;
   position: sticky;
-  position: -webkit-sticky;  /* Dodane dla przeglądarki Safari od Apple */
+  position: -webkit-sticky;
   top: 0;
 }
 
@@ -39,14 +39,22 @@ body {
 }
 
 
-/* Tekst z lewej strony 
-Przypomnienie: Ty kurwo karakanie kutafianie jebany a jest przydatne bo oznacza <a> w htmlu nie usuwaj tego nigdy */
-a.left {
+/* Tekst i obrazek zlewej strony 
+Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy */
+img {
+  float: left;
   display: block;
   color: white;
   text-align: center;
+  text-decoration: none;
+}
+
+p.left {
   float: left;
-  padding: 14px 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 5px;
   text-decoration: none;
 }
 
@@ -54,6 +62,12 @@ a.left {
 /* Mysz na przycisku na navbarze */
 .navbar a:hover {
   background-color: darkgreen;
+  color: white;
+}
+
+/* Mysz na przycisku na navbarze */
+.navbar p:hover {
+  background-color: black;
   color: white;
 }
 
@@ -85,18 +99,20 @@ a.left {
 
 
 <div class="navbar">
+<img src="leno.png" width="50" height="50" alt="Debil">
   <a href="#">Link</a>
-  <a href="#">Link</a>  
-  <a href="index.html" class="left">Leno</a>
-  <a href="#" class="active">Dom</a>
+  <a href="#">Link</a> 
+  <p class="left">Stary Leń</p>
+  <a href="index.html" class="active">Dom</a>
 </div>
 
 
     <h2>Hi there!</h2>
     <p>Ext</p>
+    
 
 <div class="footer">
-  <h2>HENLO</h2>
+  <h5>Stary Leń, Liptoneq Collection oraz wszelkie podległe podmioty mają swoje zasady. Znajdziesz je <a href="righs">tutaj</a></h5>
 </div>
 
 </body>
