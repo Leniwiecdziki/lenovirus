@@ -1,48 +1,103 @@
-<html> <body style="background:#000028"> <title>Wirusy Lenia</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet"> 
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Liptoneq Collection</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<center>
-<font face="Ubuntu" size="12" color="white"> <b>Wirusy Lenia</b> <br> </font>
-<font face="Ubuntu" size="2" color="#8ebf42"> <b>Nowotwór dupy z przerzutami na wyrostek robaczkowy</b> <br> </font>
-
-</center>
-
-<font face="Ubuntu" color="#ffffff"> 
-
-<p style="float: left;"> <img src="https://raw.githubusercontent.com/Leniwiecdziki/leno/main/leno.png";weight="220" height="250"></p> <br><br>
-<p>
-No siema na stronie głównej Wirusów Lenia!<br>
-Jest to bardzo małe, przytulne i zjebane miejsce gdzie znajdziesz różnego rodzaju śmieci do pobrania.<br>
-Na tą chwilę jest tu masa wszelkich rzeczy jakie kiedykolwiek stworzyłem lub rzeczy które według mnie są przydatne a jest tego sporo bo ciągle w życiu mi sie nudzi i ciągle coś tworzę czy odkrywam np. Minirozpierdalacze kompa, Garbinator69, kolekcja systemów operacyjnych do pobrania i oczywiście moje social media takie jak kanał na Youtube. Do wszystkiego masz linki tutaj na stronie c:
-Jeśli szukasz jakiejkolwiek pomocy zawsze możesz napisać do mnie w komentarzu pod filmem na YouTube bo w sumie moje community i tak jest wielkości orzeszka ziemnego wyciąganemu z dupy twojego starego.
-<br>
-Ja teraz spierdalam, róbta co chceta, za rozpierdol twojego kompa gdy którykolwiek z wirusów uruchomisz nie odpowiadam a teraz adios.
-</p>
-<br><br><br><br><br>
-
-<a style="color:#8ebf42"><h2> Więc co my tu mamy... </h2></a>
-<a style="color:white" href="systems.html">  <h2> Kolekcja systemów </h2> </a>
-<p>Tu co prawda bez niebezpiecznych rzeczy ale za to z małą dozą spierdolenia bo zawsze mi sie nudziło w życiu i stwierdziłem, że robienie kolekcji systemów operacyjnych Windows, Linux czy innych to idealne zajęcie które może jakoś zagospodarować mój czas wolny i tak to leci od października 2020 roku. Oczywiście, jeśli chcesz możesz z tego zawsze skorzystać - nie mam nic przeciwko :D</p>
-
-<br>
-
-<a style="color:white" href="lenoprograms.html">  <h2> Autorskie zjebanie </h2> </a>
-<p>Czyli archiwum panoramixa w którym są rzeczy jakie robiłem sam lub moje ziomeczki. Stworzone jest na potrzeby własne, moich znajomych lub bo czemu nie nudziło sie i gituwa. Wszystko to jest darmowe i może być używane/otwierane/modyfikowane kiedy tylko chcesz ale NIE wszystko jest bezpieczne. Niebezpieczne elementy których nie polecam odpalać na własnym komputerze będą oznaczone emotikoną małej tarczy "🛡️" która będzie ciebie powiadamiać zanim uruchomisz coś złego na tej wirtynie</p>
-
-<br>
-
-<a style="color:white" href="programs.html">  <h2> Nie autorska rzerzączka </h2> </a>
-<p>Jeszcze jedno jebane archiwum, tym razem rzeczy, które nie są zrobione przeze mnie ani przez moich ziomeczków. Poprostu to miejsce na fajen rzeczy lub elementy które również jeśli są groźne, zostaną oznacznone odpowiednią emotką tarczy "🛡️" z troski o ciebie mordeczko.</p>
-
-<br>
-
-<a style="color:white" href="https://www.youtube.com/channel/UCE7_K_Js22WnGb0mHh9FyAg">  <h2> Lajk dat smesz baton </h2> </a>
-<p> Masz tu teraz kliknąć, zasubować i zaobserować wszystko co sie da bo jak nie to mocny wpierdol</p>
-<center><iframe width="560" height="305" src="https://www.youtube.com/embed/h4_4MVSOnVs" title="Dzikie jutuby ąąąąąą" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-<br>
+/* Pierdoły na sam start*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #101010;
+  color: white;
+}
 
 
-</font>
-</body> </html> 
+
+/* Górny pasek - nie ruszaj bo działa i zajebałem to z internetu XD */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  position: -webkit-sticky;  /* Dodane dla przeglądarki Safari od Apple */
+  top: 0;
+}
+
+/* Linki z prawej strony - reszta jest autorska */
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Tekst z lewej strony 
+Przypomnienie: Ty kurwo karakanie kutafianie jebany a jest przydatne bo oznacza <a> w htmlu nie usuwaj tego nigdy */
+a.left {
+  display: block;
+  color: white;
+  text-align: center;
+  float: left;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Mysz na przycisku na navbarze */
+.navbar a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* Aktualny przycisk, jego tło i tekst na navbarze */
+.navbar a.active {
+  background-color: green;
+  color: white;
+}
+
+/* Stópka */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: lightgreen;
+  color: black;
+}
+
+
+/* Przyciski na samej górze będą układały się pionowo jeśli ekran jest mniejszy niż 400px */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>  
+  <a href="index.html" class="left">Leno</a>
+  <a href="#" class="active">Dom</a>
+</div>
+
+
+    <h2>Hi there!</h2>
+    <p>Ext</p>
+
+<div class="footer">
+  <h2>HENLO</h2>
+</div>
+
+</body>
+</html>
