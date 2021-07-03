@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-/* Pierdoły na sam start*/
+/* Pierdoły na sam start oznaczające jak ma wyglądać stronka*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -19,8 +19,8 @@ body {
 
 
 
-/* Górny pasek - nie ruszaj bo działa i zajebałem to z internetu XD */
-.navbar {
+/* Górny pasek */
+.nawigacjakurwo {
   overflow: hidden;
   background-color: black;
   position: sticky;
@@ -28,8 +28,8 @@ body {
   top: 0;
 }
 
-/* Linki z prawej strony - reszta jest autorska */
-.navbar a {
+/* Górny pasek elementy "a" */
+.nawigacjakurwo a {
   float: right;
   display: block;
   color: white;
@@ -39,9 +39,10 @@ body {
 }
 
 
-/* Tekst i obrazek zlewej strony 
-Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy */
-img {
+/* Tekst i obrazek zlewej strony na górnym pasku 
+Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy
+kurwa cwelu buraku jebany GŁUPI KURWA */
+img.left {
   float: left;
   display: block;
   color: white;
@@ -58,26 +59,28 @@ p.left {
   text-decoration: none;
 }
 
+  
 
-/* Mysz na przycisku na navbarze */
-.navbar a:hover {
+
+/* Mysz na przycisku na górnym pasku */
+.nawigacjakurwo a:hover {
   background-color: darkgreen;
   color: white;
 }
 
 /* Mysz na przycisku na navbarze */
-.navbar p:hover {
+.nawigacjakurwo p:hover {
   background-color: black;
   color: white;
 }
 
 /* Aktualny przycisk, jego tło i tekst na navbarze */
-.navbar a.active {
+.nawigacjakurwo a.active {
   background-color: green;
   color: white;
 }
 
-/* Stópka */
+/* ZDOBEDŻGI GRZIBY MMMMMMMMMMMMMMMMMMMMMM */
 .footer {
   padding: 5px;
   text-align: center;
@@ -86,31 +89,51 @@ p.left {
 }
 
 
-/* Przyciski na samej górze będą układały się pionowo jeśli ekran jest mniejszy niż 400px */
+/* Przyciski na samej górze będą układały się pionowo jeśli ekran jest mniejszy niż 400px - zajebane z neta */
 @media screen and (max-width: 400px) {
-  .navbar a {
+  .nawigacjakurwo a {
     float: none;
     width: 100%;
   }
+  
+  
+   /* Ok bezbeku, czas dopracować wygląd tekstu na stronie. Pierwsze są teksty na samej górze, głównie opis strony, jeszcze niżej miejsce na wylew bezbeku na stronie */
+ p {
+    color: white;
+    text-align: center;
+    padding: 0px 5px;
+ }
+  
+ .niżej {
+    color: white;
+    text-align: center;
+    padding: 0px 5px;
+ }
+  
 }
 </style>
 </head>
 <body>
 
 
-<div class="navbar">
-<img src="leno.png" width="50" height="50" alt="Debil">
+<div class="nawigacjakurwo">
+<img class="left" src="leno.png" width="50" height="50" alt="Debil">
+<p class="left">Stary Leń</p>
   <a href="#">Link</a>
   <a href="#">Link</a> 
-  <p class="left">Stary Leń</p>
   <a href="index.html" class="active">Dom</a>
 </div>
 
 
-    <h2>Pusto</h2>
-    <p>Jak w piździe</p>
-    
+    <h2>Także tego nom</h2>
+    <p>Siemanero elo elo mordy morduwy. Jestem Stary Leń aka Leniwiecdziki aka TYMKODESTRUKTOINATOR69, ebauem ci matke zanim była premiera ligi legend w 1345 roku.</p>
+    <p>Identyfikuje się jako helikopter bojowy nawet poza czerwcem także illegal - jak chcecie to piszcie na DMach tak jak filipowi o to kiedy płyta w lipcu.</p>
+    <p>Robie dużo głupich rzeczy (w tym tę statyczną stronę na gicie bo na inne rzeczy jestem zbyt głupi) i jak chcecie to macie do nich linki. AnkashdgusszdkjKHJGWGddj<j</p>
 
+  <div class="niżej">
+      <h1>Używam pięciolatek jako pokrowiec na penisa</h1>
+  </div>
+       
 <div class="footer">
   <h5>amogus</a></h5>
 </div>
