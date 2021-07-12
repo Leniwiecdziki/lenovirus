@@ -1,5 +1,3 @@
-
- 
 * {
   box-sizing: border-box;
 }
@@ -11,8 +9,6 @@ body {
   background-color: #101010;
   color: white;
 }
-
-
 
 /* Górny pasek */
 .nawigacjakurwo {
@@ -33,7 +29,6 @@ body {
   text-decoration: none;
 }
 
-
 /* Tekst i obrazek zlewej strony na górnym pasku 
 Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy
 kurwa cwelu buraku jebany GŁUPI KURWA */
@@ -53,9 +48,6 @@ p.left {
   padding: 0px 5px;
   text-decoration: none;
 }
-
-  
-
 
 /* Mysz na przycisku na górnym pasku */
 .nawigacjakurwo a:hover {
