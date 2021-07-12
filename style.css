@@ -6,8 +6,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: #101010;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 /* Górny pasek */
@@ -86,13 +86,13 @@ p.left {
   
    /* Ok bezbeku, czas dopracować wygląd tekstu na stronie. Pierwsze są teksty na samej górze, głównie opis strony, jeszcze niżej miejsce na wylew bezbeku na stronie */
  p {
-    color: white;
+    color: black;
     text-align: center;
     padding: 0px 5px;
  }
   
  .niżej {
-    color: white;
+    color: black;
     text-align: center;
     padding: 0px 5px;
  }
