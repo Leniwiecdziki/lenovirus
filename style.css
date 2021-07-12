@@ -1,0 +1,108 @@
+
+ 
+* {
+  box-sizing: border-box;
+}
+
+/* Pierdoły na sam start oznaczające jak ma wyglądać stronka*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #101010;
+  color: white;
+}
+
+
+
+/* Górny pasek */
+.nawigacjakurwo {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Górny pasek elementy "a" */
+.nawigacjakurwo a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Tekst i obrazek zlewej strony na górnym pasku 
+Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy
+kurwa cwelu buraku jebany GŁUPI KURWA */
+img.left {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+p.left {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+
+  
+
+
+/* Mysz na przycisku na górnym pasku */
+.nawigacjakurwo a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* Mysz na przycisku na navbarze */
+.nawigacjakurwo p:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Aktualny przycisk, jego tło i tekst na navbarze */
+.nawigacjakurwo a.active {
+  background-color: green;
+  color: white;
+}
+
+/* ZDOBEDŻGI GRZIBY MMMMMMMMMMMMMMMMMMMMMM */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: lightgreen;
+  color: black;
+}
+
+
+/* Przyciski na samej górze będą układały się pionowo jeśli ekran jest mniejszy niż 400px - zajebane z neta */
+@media screen and (max-width: 400px) {
+  .nawigacjakurwo a {
+    float: none;
+    width: 100%;
+  }
+  
+  
+   /* Ok bezbeku, czas dopracować wygląd tekstu na stronie. Pierwsze są teksty na samej górze, głównie opis strony, jeszcze niżej miejsce na wylew bezbeku na stronie */
+ p {
+    color: white;
+    text-align: center;
+    padding: 0px 5px;
+ }
+  
+ .niżej {
+    color: white;
+    text-align: center;
+    padding: 0px 5px;
+ }
+  
+}
