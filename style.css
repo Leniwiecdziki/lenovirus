@@ -6,7 +6,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: white;
   color: white;
 }
 
@@ -71,7 +70,7 @@ p.left {
 .footer {
   padding: 5px;
   text-align: center;
-  background: lightgreen;
+  background: green;
   color: black;
 }
 
@@ -86,13 +85,15 @@ p.left {
   
    /* Ok bezbeku, czas dopracować wygląd tekstu na stronie. Pierwsze są teksty na samej górze, głównie opis strony, jeszcze niżej miejsce na wylew bezbeku na stronie */
  p {
-    color: white;
+    color: black;
+    background-color: white;
     text-align: center;
     padding: 0px 5px;
  }
   
  .niżej {
-    color: white;
+    color: black;
+    background-color: white;
     text-align: center;
     padding: 0px 5px;
  }
