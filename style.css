@@ -85,14 +85,12 @@ p.left {
   
    /* Ok bezbeku, czas dopracować wygląd tekstu na stronie. Pierwsze są teksty na samej górze, głównie opis strony, jeszcze niżej miejsce na wylew bezbeku na stronie */
  p {
-    color: black;
     background-color: white;
     text-align: center;
     padding: 0px 5px;
  }
   
  .niżej {
-    color: black;
     background-color: white;
     text-align: center;
     padding: 0px 5px;
