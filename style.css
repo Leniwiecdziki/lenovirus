@@ -139,16 +139,16 @@ h1.text-baner {
   font-size: 60px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -180%);
+  transform: translate(-50%, -150%);
 }
 
 h3.text-baner {
   position: absolute;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -180%);
+  transform: translate(-50%, -160%);
 }
 
 /* Baner dla strony "download" */
