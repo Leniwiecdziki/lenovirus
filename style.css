@@ -5,6 +5,7 @@
 /* Pierdoły na sam start oznaczające jak ma wyglądać stronka*/
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #131313;
   margin: 0;
   color: white;
 }
@@ -12,10 +13,24 @@ body {
 /* Górny pasek */
 .nawigacjakurwo {
   overflow: hidden;
-  background-color: black;
+  background-color: #301a0b;
   position: sticky;
   position: -webkit-sticky;
-  top: 0;
+}
+
+/* Tekst i obrazek z lewej strony (navbar)
+Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy
+kurwa cwelu buraku jebany GŁUPI KURWA */
+img.left {
+  float: left;
+}
+
+p.left {
+  float: left;
+  display: block;
+  color: white;
+  text-align: left;
+  text-decoration: none;
 }
 
 /* Górny pasek elementy "a" */
@@ -24,76 +39,149 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 
-/* Tekst i obrazek zlewej strony na górnym pasku 
-Przypomnienie: Ty kurwo karakanie kutafianie jebany "p" jest przydatne bo oznacza <p> w htmlu nie usuwaj tego nigdy
-kurwa cwelu buraku jebany GŁUPI KURWA */
-img.left {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+
+/* Mysz na żółtym przycisku (navbar) */
+.y:hover {
+  background-color: #f5a811;
 }
 
-p.left {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 0px 5px;
-  text-decoration: none;
+/* Mysz na czerwonym przycisku (navbar) */
+.r:hover {
+  background-color: #C01C28;
 }
 
-/* Mysz na przycisku na górnym pasku */
-.nawigacjakurwo a:hover {
-  background-color: darkgreen;
-  color: white;
+/* Mysz na zielonym przycisku (navbar) */
+.g:hover {
+  background-color: #2EC27E;
 }
 
-/* Mysz na przycisku na navbarze */
-.nawigacjakurwo p:hover {
+.active {
   background-color: black;
-  color: white;
-}
-
-/* Aktualny przycisk, jego tło i tekst na navbarze */
-.nawigacjakurwo a.active {
-  background-color: green;
-  color: white;
 }
 
 /* ZDOBEDŻGI GRZIBY MMMMMMMMMMMMMMMMMMMMMM */
 .footer {
-  padding: 5px;
+  padding: 0.1px;
   text-align: center;
-  background: green;
+  background: darkgreen;
+  color: white;
+}
+
+/* Baner określa zdjęcie banerowe na samej górze. Centered określa wyśrodkowany tekst dodany na obraz w CSSie */
+.baner {
+  position: relative;
+   text-align: center;
+   color: white;
+}
+
+h1.text-baner {
+  position: absolute;
   color: black;
+  font-size: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -240%);
+}
+
+h3.text-baner {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -300%);
+}
+
+/* Baner dla strony "download" */
+.banerd {
+  color: white;
+  margin: 20px;
+}
+
+img.banerd {
+  text-align: left;
+  font-size: 30px;
+}
+
+h1.text-banerd {
+  color: white;
+  font-size: 50px;
+  /*text-align: right;*/
+}
+
+h3.text-banerd {
+  color: white;
+  font-size: 25px;
+   /*text-align: right;*/
 }
 
 
-/* Przyciski na samej górze będą układały się pionowo jeśli ekran jest mniejszy niż 400px - zajebane z neta */
-@media screen and (max-width: 400px) {
-  .nawigacjakurwo a {
-    float: none;
-    width: 100%;
-  }
-  
-  
+
+/* Użyteczne dla każdego elementu w info */
+.info {
+  margin: 20px;
+}
+
+/* Przyciski na samej górze będą układały się pionowo jeśli ekran jest mniejszy niż 500px - zajebane z neta */
+@media screen and (max-width: 700px) {
+.nawigacjakurwo {
+  float: none;
+  width: 100%;
+}
+
+h1.text-baner {
+  position: absolute;
+  color: black;
+  font-size: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+}
+
+h3.text-baner {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+}
+
+/* Baner dla strony "download" */
+.banerd {
+  text-align: center;
+  color: white;
+}
+
+img.banerd {
+  text-align: center;
+}
+
+h1.text-banerd {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  /*text-align: right;*/
+}
+
+h3.text-banerd {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+   /*text-align: right;*/
+}
+
+
+
    /* Ok bezbeku, czas dopracować wygląd tekstu na stronie. Pierwsze są teksty na samej górze, głównie opis strony, jeszcze niżej miejsce na wylew bezbeku na stronie */
- p {
-    background-color: white;
-    text-align: center;
-    padding: 0px 5px;
- }
-  
- .niżej {
-    background-color: white;
-    text-align: center;
-    padding: 0px 5px;
- }
-  
 }
+
+/* 2EC27E ziely
+   F5C211 f5a811 zolty
+   C01C28 czerw
+   170707 brons
+*/
